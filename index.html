@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIRA App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="filters">
+                <div class="filter">
+                    <div class="pink"></div>
+                </div>
+                <div class="filter">
+                    <div class="blue"></div>
+                </div>
+                <div class="filter">
+                    <div class="green"></div>
+                </div>
+                <div class="filter">
+                   <div class="black"></div>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <div class="add"><span class="material-icons">
+                    add
+                    </span></div>
+                <div class="delete"><span class="material-icons">
+                    delete
+                    </span></div>
+            </div>
+        </div>
+        <div class="grid"></div>
+    </div>
+    <!-- <div class="modal">
+        <div class="tasksection">
+            <div class="taskinnercontainer " contenteditable="true"></div>
+        </div>
+        <div class="modalprioritysection">
+            <div class="priorityinnercontainer">
+                <div class="modalpriority pink"></div>
+                <div class="modalpriority blue"></div>
+                <div class="modalpriority green"></div>
+                <div class="modalpriority black"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="ticket">
+          <div class="ticketColor pink"></div>
+          <div class="ticketId">
+            #aeD34
+          </div>
+          <div class="actualTask">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, odio!
+          </div>
+        </div>  -->
+
+
+        <!-- cdn link , unpkg:unpackage link.... 
+       <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>  generate very long id 
+    Hence we do not use this library here-->
+
+       <!-- https://www.npmjs.com/package/short-unique-id : For short unique id library-->
+         <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+         <script>
+              var uid = new ShortUniqueId();
+            //   localStorage.setItem("a",1);  
+            // Localstorage to save the data but not used as it cannot store more than 5MB.Also stores everyting as string in Key value pair 
+              
+         </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
