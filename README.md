@@ -1,1 +1,1 @@
-# GiraApp-Frontend-
+# JIRA App-Frontend-
